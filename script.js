@@ -3,7 +3,7 @@ function verificar() {
     var res = document.getElementById('res')
     var p = String(pais.value)
 
-    if (p.value == 0) {
+    if (pais.value.length == "") {
         window.alert('[ERRO] Preencha os Dados!')
     } else {
         if (p == "brasil" || p == 'Brasil') {
