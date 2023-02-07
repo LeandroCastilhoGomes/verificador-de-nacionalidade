@@ -5,14 +5,26 @@ body {
 }
 
 h1 {
-    font: 2em arial;
+    font: 180% arial, Helvetica, sans-serif;
     padding: 10px;
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     background-color: white;
+    align-items: center;
     text-align: center;
-    width: 600px;
+    max-width: 600px;
     height: 500px;
     border-radius: 10px;
+    margin: auto;
+}
+
+div#txt {
+    margin: auto ;
+}
+
+div > p {
+    font: 100%  Arial, Helvetica, sans-serif;
 }
