@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
 body {
-    background-color: rgba(127, 255, 212, 0.547);
+    background-color: rgba(127, 146, 255, 0.547);
 }
 
-h1 {
-    font: 180% arial, Helvetica, sans-serif;
+header {
+    color: white;
+    text-align: center;
+    font: 100% arial, Helvetica, sans-serif;
     padding: 10px;
 }
 

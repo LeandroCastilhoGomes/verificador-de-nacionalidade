@@ -3,10 +3,15 @@ function verificar() {
     var res = document.getElementById('res')
     var p = String(pais.value)
 
-    if (p == "brasil") {
-        res.innerHTML = ('Você é Brasileiro')
+    if (p.value == 0) {
+        window.alert('[ERRO] Preencha os Dados!')
     } else {
-        res.innerHTML = ('Você é Estrangeiro')
+        if (p == "brasil" || p == 'Brasil') {
+            res.innerHTML = ('Você é Brasileiro')
+        } else {
+            res.innerHTML = ('Você é Estrangeiro')
+        }
+        
     }
     
 }
