@@ -32,15 +32,19 @@ main {
 #txtp {
     margin: 5px 0px 10px 0px;
     padding: 5px;
-    border-radius: 5px;       
+    border-radius: 15px;       
 }
 
-div#res {
-    font-size: 2em;
+#botao {
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#res {
+    font-size: 1.8em;
+}
+
+div {
+    font: 1.8em  Arial, Helvetica, sans-serif;
     padding: 10px;
-}
-
-div > p {
-    font: 2em  Arial, Helvetica, sans-serif;
-    padding: 20px;
 }
