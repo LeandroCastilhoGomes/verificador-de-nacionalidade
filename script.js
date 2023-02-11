@@ -285,7 +285,7 @@ function verificar() {
         'Zimbábue') {
             res.innerHTML = (`Você é <strong>Estrangeiro</strong>, pois nasceu na <strong>${p}</strong>, e não no <strong>Brasil</strong>!`)
         } else {
-            res.innerHTML = ('Pais  <strong>Pais Não Encontrado!</strong>')
+            res.innerHTML = ('Pais  <strong>Não Encontrado!</strong>')
         }
         document.getElementById('txtp').value='';
         res.appendChild(img)
