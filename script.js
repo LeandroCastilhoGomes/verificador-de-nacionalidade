@@ -11,7 +11,7 @@ function verificar() {
             res.innerHTML = ('Você é <strong>Brasileiro</strong>')
             img.setAttribute('src','imagens/brasil.jpg')
             
-        } else if (p == 'Abkházia'|| p ==
+        } else if (p.toLocaleLowerCase() || p == 'Abkházia'|| p ==
         'Abu Dhabi'|| p ==
         'Aceh'|| p ==
         'Açores'|| p ==
