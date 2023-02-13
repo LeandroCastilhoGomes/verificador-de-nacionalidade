@@ -283,7 +283,7 @@ function verificar() {
         'Vietnã'|| p ==
         'Zâmbia'|| p ==
         'Zimbábue') {
-            res.innerHTML = (`Você é <strong>Estrangeiro</strong>, pois nasceu na <strong>${p}</strong>, e não no <strong>Brasil</strong>!`)
+            res.innerHTML = (`Você é <strong>Estrangeiro</strong>, pois nasceu na(o) <strong>${p}</strong>, e não no <strong>Brasil</strong>!`)
         } else {
             res.innerHTML = ('País <strong>Não Encontrado!</strong>')
         }
